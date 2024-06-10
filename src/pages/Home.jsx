@@ -20,7 +20,7 @@ const Home = () => {
     }
     setLoading(false);
   }
-
+// To render for the first render only
   useEffect(() => {
     fetchProductsData();
   }, []);
