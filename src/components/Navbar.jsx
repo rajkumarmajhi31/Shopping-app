@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="flex flex-row items-center gap-x-6 mr-6 text-slate-100 -tracking-tighter font-medium">
         <NavLink to="/">
           <p className="hover:text-green-400 cursor-pointer duration-300 transition-all ease-in">
-            Home
+            Home Page
           </p>
         </NavLink>
         <NavLink to="/cart">
