@@ -23,7 +23,7 @@ const Cart = () => {
             ))}
           </div>
 
-          {/* Summary */}
+          {/* Cart Summary */}
           <div className="w-[40%] mt-5 flex flex-col">
             <div className="flex flex-col h-[100%] justify-between p-5 gap-5 my-14">
               <div className="flex flex-col gap-5 ">
