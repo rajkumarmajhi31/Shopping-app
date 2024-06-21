@@ -20,7 +20,7 @@ const Home = () => {
     }
     setLoading(false);
   }
-// To render for the first render only
+// To render for the first render of file only
   useEffect(() => {
     fetchProductsData();
   }, []);
