@@ -17,14 +17,10 @@ const CartItem = ({ item }) => {
   };
 
   return (
-    <div className="flex items-center p-2 md:p-5 justify-between mt-2 mb-2 md:mx-5 border-b-[3px] border-slate-500">
-      <div className="flex flex-col md:flex-row p-0 md:p-3 gap-5 items-center w-full">
+    <div className="flex items-center p-2 md:p-5 justify-between mt-2 mb-2 md:mx-5">
+      <div className="flex flex-col md:flex-row p-0 md:p-3 gap-5 items-center">
         <div className="w-[30%]">
-          <img
-            className="object-cover"
-            src={item.images ? item.images[0] : item.image}
-            alt={item.title}
-          />
+          <img className="object-cover" src={item.image} />
         </div>
 
         <div className="md:ml-10 self-start space-y-5 w-[100%] md:w-[70%]">
