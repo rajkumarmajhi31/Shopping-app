@@ -37,14 +37,16 @@ const Product = ({ post }) => {
       </div>
       <div className="flex justify-between items-center w-full mt-5">
         <p className="text-green-600 font-semibold">${post.price}</p>
-        {cart.some((p) => p.id === post.id) ? (
+        {
+{/*         cart.some((p) => p.id === post.id) ? (
           <button
             className="border-2 border-gray-700 text-gray-700 uppercase font-semibold px-3 py-1 rounded-full text-[12px] transition-all duration-300 ease-in hover:text-white hover:bg-gray-700"
             onClick={removeFromCart}
           >
             Remove Item
           </button>
-        ) : (
+        ) :  */}
+(
           <button
             className="border-2 border-gray-700 text-gray-700 uppercase font-semibold px-3 py-1 rounded-full text-[12px] transition-all duration-300 ease-in hover:text-white hover:bg-gray-700"
             onClick={addToCart}
